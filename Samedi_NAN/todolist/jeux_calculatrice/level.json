@@ -1,0 +1,8 @@
+[
+    {"level":1,"min":0, "max":20, "nb_seconde":20,"correct_response":3,"operators":["/"]},
+    {"level":2,"min":0, "max":100, "nb_seconde":18,"correct_response":1,"operators":["+"]},
+    {"level":3,"min":0, "max":150, "nb_seconde":16,"correct_response":2,"operators":["+","-"]},
+    {"level":4,"min":0, "max":200, "nb_seconde":14,"correct_response":3,"operators":["+","-","*"]},
+    {"level":5,"min":0, "max":250, "nb_seconde":12,"correct_response":4,"operators":["+","-","*","/"]}
+]
+

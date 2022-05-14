@@ -1,0 +1,165 @@
+/*  ceci est ma premiere transition
+button{
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+    transition: all 1s;
+    border-radius: 0.2rem;
+    background: blue;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    transition:  5s;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+button:hover{
+      background: red;
+}
+button:hover>span{
+    transform: translateY(-100%);
+    
+
+} */
+ /* animation en carre
+ 
+ 
+ 
+ .box{
+     width: 100px;
+     height:100px;
+     background: red;
+     animation: anim1 10s 0s infinite ease-in-out;
+
+ }
+ @keyframes anim1{
+     25%{
+         transform: translate(200%) ;
+         border-radius: 1rem;
+         background: blue;
+         
+     }
+     50%{
+         transform: translate(200%,200%);
+         border-radius: 2rem;
+         background: green;
+     }
+     75%{
+         transform: translateY(200%);
+         border-radius: 3rem;
+         background: gray;
+     }
+     100%{
+         transform: translate(0%) ;
+         border-radius: 5rem;
+   
+
+ } */
+ /*  entree canon
+ p{
+     
+    font-size: 3rem; 
+    font-weight: bolder;
+    overflow: hidden;
+    margin-top: 100px;
+    animation: animep 2s forwards ;
+ }
+ span{
+     position: absolute;
+     background: white;
+     
+ }
+
+ span:nth-child(1){
+     color: blueviolet;
+     font-size: 3.2rem !important;
+     z-index: 1;
+ }
+span:nth-child(2){
+    left:-100%;
+    animation: animespan2 2s 2s forwards;
+
+}
+ .box{
+     border-bottom:5px solid black ;
+     overflow: hidden;
+     width: 500px;
+     height: 110px;
+     position:relative;
+       
+ }
+
+@keyframes animep {
+         from {
+            margin-top: 30%;
+         }
+         to{
+           margin-top: 7%;
+         }
+
+}
+@keyframes animespan2 {
+    from {
+       left:-100%;
+    }
+    to{
+      left: 8%;
+    }
+
+} */
+p{
+     
+    font-size: 3rem; 
+    font-weight: bolder;
+    overflow: hidden;
+    margin-top: 30%;
+    animation: animep 13s infinite;
+ }
+ span{
+     position: absolute;
+     background: white;
+     
+ }
+
+ span:nth-child(1){
+     color: blueviolet;
+     font-size: 3.2rem !important;
+     z-index: 1;
+ }
+span:nth-child(2){
+    left:-100%;
+    animation: animespan2 2s 2s forwards;
+
+}
+ .box{
+     border-bottom:5px solid black ;
+     overflow: hidden;
+     width: 500px;
+     height: 110px;
+     position:relative;
+       
+ }
+
+@keyframes animep {
+         0% {
+            margin-top: 3%;
+         }
+        75% {
+           margin-top: 30%;
+         }
+
+}
+@keyframes animespan2 {
+    from {
+       left:-100%;
+    }
+    to{
+      left: 8%;
+    }
