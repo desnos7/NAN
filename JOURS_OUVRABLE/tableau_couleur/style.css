@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tache{
+    margin: 45px;
+    border: 2px solid black;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.colgroup{
+  width:390px;
+  height: 150px;
+  margin: 15px;
+transition: 2s;
+}
+.reset{
+    padding: 25px;
+    margin-left: 90px;
+   
+    
+}
+.add{
+    padding: 25px;
+    margin-left: 90px;
+      
+}
+.click{
+    padding: 25px;
+    margin-left: 90px;
+    
+    
+}
