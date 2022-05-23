@@ -13,9 +13,10 @@
 
 .colgroup{
   width:390px;
-  height: 150px;
+  height: 230px;
   margin: 15px;
 transition: 2s;
+margin-left: 40px;
 }
 .reset{
     padding: 25px;
