@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.contener{
+
+    margin: 90px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;
+}
+.box{
+    margin: 25px;
+    background-color: rgb(127, 255, 212);
+    width:150px;
+    height: 150px;
+
+}
+.box1{
+    width:150px;
+    height: 150px;
+}
+#red{
+
+    background-color: rgb(165, 42, 42);
+}
