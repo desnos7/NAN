@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+font-size: 30px;
+}
+p{
+    font-size: 25px;
+}
+span{
+    font-size: 30px;
+}
+.contener{
+    margin: 50px;
+    border:2px solid black;
+    width: 80%;
+    height: 690px;
+    padding: 45px;
+}
+span{
+    margin-left: 10px;
+}
+.cont{
+    border:1px solid black;
+}
+.box1{
+    border:1px solid black;
+    width: 40%;
+    padding: 20px; 
+    margin-bottom: 20px;
+    
+}
+.box2{
+    border:1px solid black;
+    width: 40%;
+    padding: 20px; 
+    margin-bottom: 20px;
+    
+}
+.box3{
+    border:1px solid black;
+    width: 40%;
+    padding: 20px;    
+}
+.box4{
+    border:1px solid black;
+    width: 10%;
+    height: 150px;
+    position: absolute;
+    top:10%;
+    left: 60%; 
+    padding:20px;  
+}
+.box4>p{
+    font-size: 25px;
+}
+button{
+    margin: 25px;
+  font-size: 15px;
+      padding: 15px;
+
+
+}
