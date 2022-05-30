@@ -1,13 +1,20 @@
 [
-{
-    "niveau":1,
-    "nb_seconde":20,
-    "questions" : ["Combien de rayures y a-t-il sur le drapeau américain","Quel est le plus petit pays du monde","Quelle équipe de football est-elle connue sous le nom des « Diables rouges »"],
+    {
+        "niveau":1,
+        "nb_seconde":20,
+        "questions" : ["Combien de rayures y a-t-il sur le drapeau américain","Quel est le plus petit pays du monde","Quelle équipe de football est-elle connue sous le nom des « Diables rouges »"],
 
-    "reponse" : [[10, 13, 5], ["chypre", "madagascar", "vatican"], ["mancthester united","liverpool", "arsenal"]],
-    "correct" : [[1], [1, 2], [0]]
-}
+        "reponse" : [[10, 13, 5], ["chypre", "madagascar", "vatican"], ["mancthester united","liverpool", "arsenal"]],
+        "correct" : [[1], [1, 2], [0]]
+    },
+    {
+        "niveau":2,
+        "nb_seconde":15,
+        "questions" : ["Combien de rayures y a-t-il sur le drapeau américain","Quel est le plus petit pays du monde","Quelle équipe de football est-elle connue sous le nom des « Diables rouges »"],
 
+        "reponse" : [[10, 13, 5], ["chypre", "madagascar", "vatican"], ["mancthester united","liverpool", "arsenal"]],
+        "correct" : [[1], [1, 2], [0]]
+    }
 
 
 

@@ -4,27 +4,32 @@ let box2=document.querySelector('.box2')
 let box3=document.querySelector('.box3')
 let cont = document.querySelector(".contener")
 
-let levels=null
+let levels=[]
+current_level=null
 
-let button=document.querySelector('button')
-for(let i=0; i<check.length;i++){
-    check[i].addEventListener('click',function(e){
-        console.log(e.target.value);
- })
 
-}
-
- window.addEventListener("load", async function(){
-     levels= await fetch('./level.json');
-     levels= await levels.json();
-     for (let i = 0; i < 3; i++)
-     {
-         cont.children[i].children[0].textContent = levels[0].questions[i]
-
-         cont.children[i].children[].textContent= levels[0].reponse[i]
-
+ function remplirContener(){
+     for (let i = 0; i< 3 ; i++) {
+         let child=cont.children[i]
+         child[0].textContent=current_level.questions[i]
+         for (let j=1; j<4 ; j++){
+            child[j].textContent=current_level.reponse[i][j - 1]
+         }
+             
      }
- })
+ }
+
+window.addEventListener('load', async function(){
+
+     let levels= await this.fetch('/level.json')
+           levels=await levels.json();
+           current_level=levels[0];
+           console.log(current_level);
+           remplirContener()
+
+
+})
+
 
 
 
